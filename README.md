@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🖨️ PrintForge
 
-## Getting Started
+A modern web application built with Next.js that allows users to explore and customize print products with a clean and responsive UI.
 
-First, run the development server:
+---
+
+## 🚀 Overview
+
+PrintForge is a frontend-focused full-stack-ready application built using Next.js. It demonstrates modern web development practices including file-based routing, component-based architecture, and optimized rendering.
+
+---
+
+## 🛠️ Tech Stack
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS *(if used)*
+* JavaScript
+
+---
+
+## ✨ Features
+
+* 📄 File-based routing using Next.js
+* ⚡ Fast performance with optimized rendering
+* 🎨 Clean and responsive UI
+* 🧩 Reusable component structure
+* 🔄 Dynamic rendering of product data
+
+---
+
+## 📂 Project Structure
+
+```
+/app
+  /components
+  /pages
+  /styles
+/public
+```
+
+---
+
+## 🧠 What I Learned
+
+* Understanding of Next.js App Router
+* Difference between Server and Client components
+* File-based routing and layout structure
+* Improved React component design
+* Performance optimization basics
+
+---
+
+## ▶️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/printforge.git
+cd printforge
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*(Add your deployed link here if available)*
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 Future Improvements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Add authentication
+* Integrate backend (Supabase / API routes)
+* Add cart and order functionality
+* Improve UI interactions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This is a learning project, but suggestions and improvements are welcome.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📄 License
+
+This project is for educational purposes.
