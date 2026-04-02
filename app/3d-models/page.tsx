@@ -4,18 +4,14 @@ import ModelsGrid from "@/app/components/ModelsGrid"
 import type { ModelsPageProps } from "@/app/types"
 import { getModels } from "@/app/lib/models"
 
-/**
- * Challenge: Upgrade our form to a Form from Next.js
- */
-
 export default async function Page({ searchParams }: ModelsPageProps) {
     const models = await getModels()
-    const query = await searchParams
+    const query = (await searchParams)?.query?.toLowerCase() || ""
 
     const filteredModels = query
         ? models.filter(model =>
-            model.name.toLowerCase().includes(query.toLowerCase()) ||
-            model.description.toLowerCase().includes(query.toLowerCase())
+            model.name.toLowerCase().includes(query) ||
+            model.description.toLowerCase().includes(query)
         )
         : models
 
